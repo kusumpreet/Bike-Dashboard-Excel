@@ -1,0 +1,41 @@
+make sheet - working sheet, pivot table and dashboard
+
+copy all bike_buyer information from bike_buyer into working sheet. 
+
+REMOVE DUPLICATES-
+select the whole working sheet and filter it
+go to the Data tab and select remove duplicates -> select all and press ok.
+
+FIND AND REPLACE-
+since male female and single are in abbreviation it would be better to find and replace them with full words for convenience.
+select the row 'Marital Status' and click ctrl+h
+search by column, find 'M' and replace with 'Male'
+
+CURRENCY-
+remove the last two zeros after the decimal point 
+select the column 'Income' -> select currency from number column -> and decrease decimal  
+ 
+AGE BRACKETS-
+Create a new column named 'Age Brackets' 
+if age is less than 31 then mark it as "adolescent" otherwise it's "invalid" (write using if statements)
+make a nested if - if age >= 31 then "middle age"
+nested if - if age > 54 then "Old"
+
+PIVOT TABLES-
+select a cell, go to insert and press on pivot table.
+go to sheet 'Working sheet' and press ctrl+A and create the pivot table
+
+put the income in the values (from value field settings - choose average) 
+put gender in rows (so the average income would be shown according to the gender)
+put purchased bike as the columns (it would divide the columns if a bike is purchased or not)
+
+
+ADDING CHARTS-
+click on 'female' and 'yes' cell and go to insert, select recommended charts. 
+
+
+
+
+
+
+
